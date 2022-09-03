@@ -28,7 +28,7 @@ function Home() {
         ])
     }
   return (
-    <div className=' text-white w-2/5 mx-auto py-3  text-xl bg-red-200  w-[100%] '>
+    <div className=' text-white mx-auto py-3  text-xl bg-red-200  w-[100%] '>
     <h1 className=' font-bold text-xl text-center' >Todos: {todos.length }</h1>
       <TodoForm  addTask={addTask} />
     {todos.map((todo)=>{
